@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, times 'Times New Roman', Times, serif;
+}
+#red {
+    color: red;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+#logo {
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+}
+#navbar {
+    display: flex;
+    flex-direction:column ;
+    background-color: gray;
+    border-radius: 5%;
+    border: 2px solid black;
+    height: 14vh;
+    margin-top: 0%;
+    flex-direction: space-evenly;
+}
+ #container {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+   text-decoration: none; 
+}
+.Home {
+    color: white;
+    display: block;
+    text-decoration: none;
+}
+#order{
+    display: inline-block;
+    padding: auto;
+    margin: 0% 45%;
+    background-color: yellow;
+    border-radius: 25%;
+    
+}
+#center {
+    display: flex;
+    justify-content: center;
+}
+#a {
+     display:block;
+     background-image: url(shaf.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: 90px;
+     width: 150px;
+     margin: auto;
+     border: 10px solid black;
+     border-radius: 20%;
+}
+#price {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+    background-color: yellow;
+    border-radius: 40%;
+    border: 1px solid;
+    width: 50px;
+    margin-left: 50px;
+}
+#b {
+    display: block;
+    background-image: url(pizza.jpg);
+    background-size: cover;
+     background-repeat: no-repeat;
+     height: 90px;
+     width: 150px;
+     margin: auto;
+     border: 10px solid black;
+     border-radius: 20%;
+}
+#specials {
+    display: block;
+    text-align: center;
+    margin-top: 70px;
+    color: black;
+    background-color: yellow;
+    border-radius: 40%;
+    border: 1px solid;
+    width: 50px;
+    margin-left: 50px;
+}
+#end {
+    display: flex;
+    justify-content: center;
+    margin: 10px ;
+}
+#c {
+    display:block;
+    background-image: url(pizza.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 150px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+#item1 {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin-top: 70px;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 1px solid;
+    margin-left: 25px;
+}
+#item2 {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin-top: 70px;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 1px solid;
+    margin-left: 25px;
+}
+#item3 {
+    display: block;
+    text-align: center;
+    width: 100px;
+    margin-top: 70px;
+    color: black;
+    background-color: white;
+    border-radius: 10%;
+    border: 1px solid;
+    margin-left: 25px;    
+}
+#d {
+    display:block;
+    background-image: url(fish.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 150px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20%;
+}
+#e {
+    display:block;
+    background-image: url(bowl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90px;
+    width: 150px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20%;
+}
